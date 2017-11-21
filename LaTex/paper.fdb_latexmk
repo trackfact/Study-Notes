@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511263867 "e:\笔记\LaTex语法\paper.tex" "paper.pdf" "paper" 1511263868
+["pdflatex"] 1511264104 "e:\笔记\LaTex\paper.tex" "paper.pdf" "paper" 1511264127
   "1.png" 1511255936 5070 03055f39a0f5ace37a13647f887f9f38 ""
   "2.png" 1511256084 19958 91b880ae4eaed3669296f10a8d8d7f1d ""
   "3.jpeg" 1511259097 16183 938062001d63b0895577a7857a5221c9 ""
@@ -208,10 +208,10 @@
   "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1511187374 2373944 2abcadc89c0726ad4f6e752a9424ed70 ""
   "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1511187426 4125895 0a7570581ddc7cb7bf167dd5aa52fde5 ""
   "c:/texlive/2017/texmf.cnf" 1511187356 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "e:\笔记\LaTex语法\paper.tex" 1511263865 10407 b3c1ab8068efd908115461be1795c9df ""
-  "paper.aux" 1511263868 1471 83a8d7bc0167d0000138cf5d552c7d7c ""
-  "paper.tex" 1511263865 10407 b3c1ab8068efd908115461be1795c9df ""
+  "e:\笔记\LaTex\paper.tex" 1511264104 10402 fa1a33b361a8fb5a58a66259051432fc ""
+  "paper.aux" 1511264105 1471 83a8d7bc0167d0000138cf5d552c7d7c ""
+  "paper.tex" 1511264104 10402 fa1a33b361a8fb5a58a66259051432fc ""
   (generated)
   "paper.log"
-  "paper.aux"
   "paper.pdf"
+  "paper.aux"

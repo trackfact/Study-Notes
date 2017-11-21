@@ -1,8 +1,8 @@
-PWD e:/笔记/LaTex语法
+PWD e:/笔记/LaTex
 INPUT c:/texlive/2017/texmf.cnf
 INPUT c:/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT e:/笔记/LaTex语法/paper.tex
+INPUT e:/笔记/LaTex/paper.tex
 OUTPUT paper.log
 INPUT c:/texlive/2017/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT c:/texlive/2017/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
