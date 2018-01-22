@@ -88,6 +88,8 @@ INPUT c:/texlive/2017/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/cjk/texinput/CJK.enc
 INPUT c:/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+INPUT c:/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT c:/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT paper.aux
 INPUT paper.aux
 OUTPUT paper.aux

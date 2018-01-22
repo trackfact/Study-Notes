@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.20)  21 NOV 2017 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.20)  24 NOV 2017 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,7 +553,10 @@ LaTeX Info: Redefining \selectfont on input line 755.
 )
 (c:/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-)) (./paper.aux
+))
+(c:/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (./paper.aux
 
 LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
 
@@ -563,82 +566,82 @@ LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 -- Lines per column: 58 (exact).
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -709,7 +712,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (c:/texlive/2017/texmf-dist/tex/latex/cjk/texinput/utf8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+gbsn on input line 37.
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 43.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/cjk/texinput/utf8/c70gbsn.fd
@@ -729,33 +732,42 @@ LaTeX Warning: No \author given.
 
 
 LaTeX Font Warning: Font shape `C70/gbsn/m/it' undefined
-(Font)              using `C70/gbsn/m/n' instead on input line 76.
+(Font)              using `C70/gbsn/m/n' instead on input line 82.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--87
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--108
+Underfull \hbox (badness 10000) in paragraph at lines 98--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
 
  []
 
 <2.png, id=69, 592.2125pt x 338.26375pt>
 File: 2.png Graphic file (type png)
  <use 2.png>
-Package pdftex.def Info: 2.png used on input line 114.
+Package pdftex.def Info: 2.png used on input line 120.
 (pdftex.def)             Requested size: 236.8808pt x 135.30309pt.
 
+Overfull \hbox (4.8808pt too wide) in paragraph at lines 120--121
+[][] 
+ []
 
-e:/± º«/LaTex/paper.tex:122: LaTeX Error: There's no line here to end.
+
+e:/± º«/LaTex/paper.tex:128: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 \subsubsection
-                    {‰∏∫‰ªÄ‰πàËÉΩÂ∫îÂØπÂø´ÈÄüÂèòÂåñ}
+l.128 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -763,31 +775,71 @@ or  <return>  to continue without it.
 <1.png, id=71, 457.71pt x 147.55125pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
-Package pdftex.def Info: 1.png used on input line 124.
+Package pdftex.def Info: 1.png used on input line 131.
 (pdftex.def)             Requested size: 183.08075pt x 59.01944pt.
+
+Underfull \hbox (badness 7963) in paragraph at lines 130--132
+ \OT1/ptm/m/it/10 2) \C70/gbsn/m/it/10/4e : ¿ H \C70/gbsn/m/it/10/80 ˝ \C70/gbs
+n/m/it/10/5e î \C70/gbsn/m/it/10/5b ˘ \C70/gbsn/m/it/10/5f Î \C70/gbsn/m/it/10/
+90 ^^_ \C70/gbsn/m/it/10/53 ÿ ^^V\OT1/ptm/m/it/10 : [][] \C70/gbsn/m/it/10/4e ^
+^@ \C70/gbsn/m/it/10/65 π \C70/gbsn/m/n/10/97 b \C70/gbsn/m/n/10/ff ^^L \C70/gb
+sn/m/n/10/98 y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+\C70/gbsn/m/it/10/76 Ó \C70/gbsn/m/it/10/4e - \C70/gbsn/m/n/10/91 « \C70/gbsn/m
+/n/10/75 ( \C70/gbsn/m/it/10/7e ﬂ \C70/gbsn/m/it/10/4e ^^@ \C70/gbsn/m/it/10/76
+ Ñ \C70/gbsn/m/it/10/8b Ì \C70/gbsn/m/n/10/8a ^^@ \C70/gbsn/m/n/10/8f € \C70/gb
+sn/m/n/10/88 L \C70/gbsn/m/it/10/4e § \C70/gbsn/m/n/10/6d A \C70/gbsn/m/n/10/ff
+ ^^L \C70/gbsn/m/n/10/4f · \C70/gbsn/m/it/10/60 o \C70/gbsn/m/n/10/4f   \C70/gb
+sn/m/n/10/8f æ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+\C70/gbsn/m/n/10/8f « \C70/gbsn/m/n/10/7a  \C70/gbsn/m/it/10/4e - \C70/gbsn/m/
+n/10/ff ^^L \C70/gbsn/m/it/10/54 ^^D \C70/gbsn/m/it/10/65 π \C70/gbsn/m/it/10/5
+b ˘ \C70/gbsn/m/n/10/95 Ó \C70/gbsn/m/n/10/98 ò \C70/gbsn/m/it/10/76 Ñ \C70/gbs
+n/m/it/10/8b § ∆ \C70/gbsn/m/n/10/66 Ù \C70/gbsn/m/it/10/5b π \C70/gbsn/m/n/10/
+66 ^^S \C70/gbsn/m/n/10/4f › \C70/gbsn/m/it/10/63 ^^A \C70/gbsn/m/it/10/4e ^^@
+ []
 
 <3.jpeg, id=73, 752.8125pt x 352.31625pt>
 File: 3.jpeg Graphic file (type jpg)
  <use 3.jpeg>
-Package pdftex.def Info: 3.jpeg used on input line 134.
+Package pdftex.def Info: 3.jpeg used on input line 142.
 (pdftex.def)             Requested size: 301.11966pt x 140.924pt.
 
-Overfull \hbox (59.11966pt too wide) in paragraph at lines 134--136
+Overfull \hbox (69.11966pt too wide) in paragraph at lines 142--144
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2318) has occurred while \output is active []
 
  [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./2.png> <./1.png>]
+Underfull \hbox (badness 6559) in paragraph at lines 145--146
+[]\C70/gbsn/m/it/10/65 t \C70/gbsn/m/it/10/4e * \C70/gbsn/m/it/10/67 ∂ Ñ \C70/g
+bsn/m/it/10/52 ^^F \C70/gbsn/m/it/10/4e : \C70/gbsn/m/n/10/56 € \C70/gbsn/m/it/
+10/5c B \C70/gbsn/m/n/10/ff ^^L \C70/gbsn/m/n/10/51 v \C70/gbsn/m/n/10/68 8 \C7
+0/gbsn/m/it/10/5f √ \C70/gbsn/m/it/10/5c 1 \C70/gbsn/m/n/10/66 / \C70/gbsn/m/it
+/10/98 Ü \C70/gbsn/m/it/10/57 ﬂ \C70/gbsn/m/it/10/5c B
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
+
+ []
+
 [2 <./3.jpeg>] (./paper.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -797,10 +849,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5672 strings out of 492995
- 79989 string characters out of 6136401
- 163859 words of memory out of 5000000
- 8831 multiletter control sequences out of 15000+600000
+ 5679 strings out of 492995
+ 80217 string characters out of 6136401
+ 163903 words of memory out of 5000000
+ 8834 multiletter control sequences out of 15000+600000
  73369 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  39i,5n,28p,426b,1258s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -868,7 +920,7 @@ gbsnu9a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb><c
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2017/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on paper.pdf (2 pages, 482075 bytes).
+Output written on paper.pdf (2 pages, 482169 bytes).
 PDF statistics:
  396 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams

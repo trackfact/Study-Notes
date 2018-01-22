@@ -1,3 +1,4 @@
+
 \documentclass[journal]{IEEEtran}
 
  
@@ -5,6 +6,7 @@
 
 \usepackage{graphicx}
 \usepackage{CJKutf8}
+\usepackage{indentfirst}
 
 \ifCLASSINFOpdf  
 \else
@@ -12,10 +14,12 @@
 
 
 
-
-
+\setlength{\parindent}{2em}
 
 \hyphenation{op-tical net-works semi-conduc-tor}
+
+
+
 
 
 \begin{document}
@@ -24,6 +28,8 @@
 
 
 \title{基于领域驱动设计\\构建软件的学习}
+
+
 
 
 %
@@ -99,7 +105,7 @@ model)，是由一些定义的模型元素组成的，并使用分层架构
 和规则都在这里反映出来，能对需求的变化做出快速的反
 映。
 \newline
-\indent
+ 
   领域驱动设计抛弃了分裂分析模型与设计的做法，提出
 要以通用语言作为开发中交流的统一语言，领域模型是通用
 语言的基础，通用语言可以反映领域模型的本质，是开发人
@@ -119,6 +125,7 @@ model)，是由一些定义的模型元素组成的，并使用分层架构
 保证了系统的可维护性、扩展性和复用性，在处理复杂业务逻辑方面有着先天的优势。
 
 \\
+
 \subsubsection{为什么能应对快速变化}
 一方面，项目中采用统一的语言进行交流，信息传达过程中，各方对问题的认识更容易保持一致；
 \includegraphics[scale=0.4]{1.png}
@@ -126,6 +133,7 @@ model)，是由一些定义的模型元素组成的，并使用分层架构
 另一方面，业务模型直接映射领域模型，程序员看到领域模型代码，就看到业务需求。
 
 \subsection{领域驱动设计的分层架构和构成要素}
+
 
 下面我们简单介绍一下领域驱动设计的分层架构和构成要素，这部分内容在Eric Evans的书中有非常详尽的描述，想要详细了解的，最好去读原版书籍。
 
@@ -148,20 +156,21 @@ model)，是由一些定义的模型元素组成的，并使用分层架构
    为其他层的支撑库存在。它提供了层间的通信,实现对业务对象的持久化,包含对用户界面层的支撑库等作用。
    比如，各种中间件的使用。
 
-\indent
+ 
 
 下面详细介绍下领域模型的组成和设计规则：
 
-\indent
+ 
 
 一个领域模型有多个Aggregates组成。Aggregate划分了一堆class和其他class的一致性边界(Consistency Boundary)。
 
-\indent
+ 
 
-{\bfseries Aggregate}  之内强调一个事务一致性(transactional consistency)，不同的Aggregates之间只要求最终一致(Eventual Consistency)。
+{\bfseries Aggregate}  之内强调 一个事务一致性(transactional consistency)，不同的Aggregates之间只要求最终一致(Eventual Consistency)。
   尽可能小的Aggregate。不需要一致性的东西尽量不要混进来。
   
-\indent
+ 
+
 
 {\bfseries Aggregate Root} 
 是指在整个Bounded Context里面有全局Identity（就是唯一性标识）的类。
@@ -169,7 +178,7 @@ model)，是由一些定义的模型元素组成的，并使用分层架构
 Aggregate Root本身也是一个Entity，不过是一个重要和特别的Entity。
 Aggregate Root是操作整个Aggregate的入口。外界是通过Aggregate Root来操作这个Aggregate的。
 
-\indent
+ 
 
 {\bfseries   Entity }是指在一个Aggregate里面有唯一标识的类。
 譬如说Address，一个User可以有好几个Address，这几个Address出了这个用户范围外后，就没有区分哪个是哪个的必要。
@@ -180,7 +189,7 @@ Aggregate Root是操作整个Aggregate的入口。外界是通过Aggregate Root�
 5岁的你和10岁的你是同一个人，只是你的状态一直在变。
 哪怕两个人看起来一模一样，是双胞胎，他们还是不同的人，身份证的ID也不一样。这就是一个明显的Entity。
    
-\indent 
+  
 
 {\bfseries Value Object}是指没有Identity的类，主要作为值来用。值是不变的,没有状态。譬如说Birthday，其实就是一个DateTime，没有什么Identity，大家在乎的就是里面的年月日是多少。
 Value Object可以随意复制。
@@ -199,7 +208,8 @@ Value Object可以随意复制。
 进一步成熟和客户需求的不断提高， 相信这是一个切
 实可行且具有很好应用前景的开发方法。
 \\
-\indent
+
+ 
 在项目实践应用领域驱动设计，一方面，切实感觉到了这种开发思想的自然，
 更符合人的思考，不至于在业务复杂时写出一大堆不可复用的代码，自己给自己挖坑；
 另一方面，还学习到了与之相关联的许多设计思想，感觉到了提升，让软件工程性的思想洗礼了一次，
@@ -208,7 +218,6 @@ Value Object可以随意复制。
 只能根据自己在做项目过程中,从书中和网络上学到的知识总结下来，望老师见谅。}
 
 
- 
  
 
 
